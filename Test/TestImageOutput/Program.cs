@@ -9,8 +9,10 @@ namespace TestImageOutput
         {
             Bitmap image = new Bitmap("FLAG_B24.BMP");
             VirtualOutput virtualOutput = new VirtualOutput(image.Width, image.Height, 20, FourCC.FOURCC_24BG);
+            ImageConverter converter = new ImageConverter();
+            byte[] imageBytes = (byte[])converter.ConvertTo(image, typeof(byte[]));
             while (true)
-                virtualOutput.Send(image);
+                virtualOutput.Send(imageBytes);
         }
     }
 }
