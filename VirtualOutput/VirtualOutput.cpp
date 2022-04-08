@@ -18,6 +18,7 @@ void VirtualCameraOutput::VirtualOutput::Send(array<Byte>^ image) {
 		}
 		destination->Add(image[i]);
 	}
+	destination->Reverse();
 	auto arr = destination->ToArray();
 	unsigned char* frame = array_conversion<unsigned char*, unsigned char>(arr);
 	uint8_t* f = (uint8_t*)frame;
