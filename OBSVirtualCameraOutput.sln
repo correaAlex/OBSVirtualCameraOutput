@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeOBS", "NativeOBS\NativeOBS.vcxproj", "{48D33263-F5A7-4529-A0FB-A5FCA72B7767}"
 EndProject
@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestImageOutput", "Test\Tes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FAFB6D48-FA56-47A9-A5F2-3D13A693B09C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOutputGif", "Test\TestOutputGif\TestOutputGif.csproj", "{AB2C0462-BD2C-4993-A2E6-72B444E833E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOutputGif", "Test\TestOutputGif\TestOutputGif.csproj", "{AB2C0462-BD2C-4993-A2E6-72B444E833E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
