@@ -62,7 +62,7 @@ namespace VirtualCameraOutput {
 					delete vo_;
 				}
 			}
-			void Send(Bitmap^ image);
+			void Send(array<Byte>^ image);
 			void Close() { vo_->stop(); };
 
 			property int Width {

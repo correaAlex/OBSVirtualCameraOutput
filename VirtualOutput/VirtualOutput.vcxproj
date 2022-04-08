@@ -136,11 +136,6 @@
     <ClCompile Include="VirtualOutput.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="System.Drawing.Common">
-      <HintPath>C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.9\System.Drawing.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\NativeOBS\NativeOBS.vcxproj">
       <Project>{48d33263-f5a7-4529-a0fb-a5fca72b7767}</Project>
     </ProjectReference>
