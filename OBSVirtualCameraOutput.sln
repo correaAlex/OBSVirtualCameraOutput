@@ -9,7 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualOutput", "VirtualOut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestImageOutput", "Test\TestImageOutput\TestImageOutput.csproj", "{4B37A336-F19D-40AF-B98B-3FB771F9DCA9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FAFB6D48-FA56-47A9-A5F2-3D13A693B09C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{FAFB6D48-FA56-47A9-A5F2-3D13A693B09C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOutputGif", "Test\TestOutputGif\TestOutputGif.csproj", "{AB2C0462-BD2C-4993-A2E6-72B444E833E4}"
 EndProject
