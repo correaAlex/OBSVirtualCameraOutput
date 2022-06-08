@@ -1,5 +1,6 @@
 # OBSVirtualCameraOutput
 Sends frames to a OBS Virtual Camera from .NET
+
 ## Getting started
 ### *Step 1: Install [libyuv](https://vcpkg.info/port/libyuv)*
 ```sh
@@ -27,3 +28,5 @@ while (true)
 }
 ```
 For more examples check out the [Examples](https://github.com/correaAlex/OBSVirtualCameraOutput/tree/master/Test) folder
+
+![Example](https://i.ibb.co/6D35WS8/image.png)
